@@ -1,4 +1,4 @@
-# NGO GRC Toolkit
+# NGO Governance, Risk, and Compliance Toolkit
 
 A free, browser-based tool to help NGOs build an ISO 27001 Risk Register and a Data Protection Impact Assessment (DPIA).
 
