@@ -1,12 +1,14 @@
 # NGO GRC Toolkit
 
-A free, browser-based tool to help NGOs build an ISO 2701 Risk Register and a Data Protection Impact Assessment (DPIA).
+A free, browser-based tool to help NGOs build an ISO 27001 Risk Register and a Data Protection Impact Assessment (DPIA).
 
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![Version](https://img.shields.io/badge/Version-3.2-brightgreen.svg)
 ![Tech](https://img.shields.io/badge/Tech-HTML%2C%20CSS%2C%20JS-yellow.svg)
 
 ---
+
+
 
 ## About This Project
 
@@ -17,7 +19,7 @@ The NGO GRC Toolkit is a guided, step-by-step application designed to simplify t
 ## Key Features
 
 * **Guided 4-Step Process:** A simple wizard that walks you through creating your GRC documentation.
-* **ISO 2701 Risk Register:** Identify assets, define risks, and map them to the official ISO 2701:2022 Annex A controls.
+* **ISO 27001 Risk Register:** Identify assets, define risks, and map them to the official ISO 27001:2022 Annex A controls.
 * **DPIA Questionnaire:** A straightforward Data Protection Impact Assessment to help you comply with privacy regulations like GDPR.
 * **Session Management:** Save your progress to a local file at any time and load it back up to continue your work.
 * **Data Export:** Download your complete GRC report as a professional PDF or your risk register data as a CSV file for use in other programs.
@@ -28,7 +30,7 @@ The NGO GRC Toolkit is a guided, step-by-step application designed to simplify t
 
 Using the toolkit is simple. You just need a modern web browser and an internet connection.
 
-1.  Navigate to the **[Releases Page]([https://github.com/your-username/your-repo-name/releases](https://github.com/maheha/NGO-GRC-Toolkit/))** .
+1.  Navigate to the [**Releases Page**](https://github.com/maheha/NGO-GRC-Toolkit/releases).
 2.  Download the `toolkit.html` file from the latest release.
 3.  Open the downloaded `toolkit.html` file in your web browser (like Chrome, Firefox, or Edge).
 
