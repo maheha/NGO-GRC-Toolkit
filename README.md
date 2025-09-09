@@ -1,10 +1,12 @@
-# NGO Governance, Risk, and Compliance Toolkit
+# NGO GRC Toolkit
 
 A free, browser-based tool to help NGOs build an ISO 27001 Risk Register and a Data Protection Impact Assessment (DPIA).
 
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![Version](https://img.shields.io/badge/Version-3.2-brightgreen.svg)
 ![Tech](https://img.shields.io/badge/Tech-HTML%2C%20CSS%2C%20JS-yellow.svg)
+
+[![Try it Live on CodePen](https://img.shields.io/badge/CodePen-Live%20Demo-blue?style=for-the-badge&logo=codepen)](https://codepen.io/Mathias-Hagstrom/full/JoYzQeL)
 
 ---
 
@@ -14,6 +16,7 @@ The NGO GRC Toolkit is a guided, step-by-step application designed to simplify t
 
 **Most importantly, your privacy is paramount.** This tool runs entirely in your web browser. No data is ever sent to a server, and no cookies are used. Your information remains on your computer at all times.
 
+Click the Codepen live demo button above this section to try it out!
 ## Key Features
 
 * **Guided 4-Step Process:** A simple wizard that walks you through creating your GRC documentation.
@@ -68,9 +71,9 @@ This project is intentionally built as a "vanilla" single-page application to en
 
 Contributions are welcome! If you have an idea for a new feature or find a bug, please follow these steps:
 
-1.  Open an issue on GitHub to discuss the proposed changes.
-2.  Fork the repository and create a new branch for your feature.
-3.  Submit a pull request with a clear description of your changes.
+1. Open an issue on GitHub to discuss the proposed changes.
+2. Fork the repository and create a new branch for your feature.
+3. Submit a pull request with a clear description of your changes.
 
 ## License
 
