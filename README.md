@@ -8,8 +8,6 @@ A free, browser-based tool to help NGOs build an ISO 27001 Risk Register and a D
 
 ---
 
-
-
 ## About This Project
 
 The NGO GRC Toolkit is a guided, step-by-step application designed to simplify the complex but crucial process of risk management for Non-Governmental Organizations. Many NGOs handle highly sensitive data but may not have the resources for expensive Governance, Risk, and Compliance (GRC) software. This tool bridges that gap by providing a simple, effective, and completely free solution.
@@ -22,36 +20,51 @@ The NGO GRC Toolkit is a guided, step-by-step application designed to simplify t
 * **ISO 27001 Risk Register:** Identify assets, define risks, and map them to the official ISO 27001:2022 Annex A controls.
 * **DPIA Questionnaire:** A straightforward Data Protection Impact Assessment to help you comply with privacy regulations like GDPR.
 * **Session Management:** Save your progress to a local file at any time and load it back up to continue your work.
-* **Data Export:** Download your complete GRC report as a professional PDF or your risk register data as a CSV file for use in other programs.
-* **CSV Import:** Already have a list of risks? Import them directly from a CSV file to get started quickly.
-* **Duplicate Finder:** A handy utility to scan your risk register for potential duplicate entries.
+* **Data Export:** Download your complete GRC report as a professional PDF or your risk register data as a CSV file.
+* **CSV Import & Duplicate Finder:** Quickly import existing risks and scan your register for duplicates.
+* **Online & Offline Versions:** Use the simple online version or download the full package for offline use.
 
-## Getting Started (For All Users)
+## Getting Started
 
-Using the toolkit is simple. You just need a modern web browser and an internet connection.
+Choose the version that best suits your needs from the [**Releases Page**](https://github.com/maheha/NGO-GRC-Toolkit/releases).
 
-1.  Navigate to the [**Releases Page**](https://github.com/maheha/NGO-GRC-Toolkit/releases).
-2.  Download the `toolkit.html` file from the latest release.
-3.  Open the downloaded `toolkit.html` file in your web browser (like Chrome, Firefox, or Edge).
+---
 
-**Note:** An active internet connection is required because the tool loads its styling (Tailwind CSS) and PDF generation libraries from a secure Content Delivery Network (CDN). This keeps the file size small and ensures you're always using an up-to-date version of those libraries.
+### Option 1: Online Version (Simple, requires internet)
+
+This is the easiest way to get started if you have a reliable internet connection.
+
+* **File:** `toolkit.html`
+* **To use:**
+    1.  Download the `toolkit.html` file from the latest release.
+    2.  Open it in a modern web browser (like Chrome or Firefox).
+    3.  **An internet connection is required.**
+
+---
+
+### Option 2: Offline Package (Works without internet)
+
+Use this version if you need to work on the toolkit without an internet connection.
+
+* **File:** `NGO-GRC-Toolkit-Offline.zip`
+* **To use:**
+    1.  Download the `.zip` file from the latest release.
+    2.  **Unzip/extract** the file on your computer. This will create a folder.
+    3.  Open the folder and double-click the `toolkit-offline.html` file to open it in your browser.
+    4.  **No internet connection is required.**
 
 ## For Developers (Technical Details)
 
-This project is intentionally built as a "vanilla" single-page application to ensure maximum portability and simplicity.
+This project is intentionally built as a "vanilla" single-page application to ensure maximum portability and simplicity. The offline version includes local copies of all dependencies.
 
 ### Tech Stack
 
 * **HTML5:** For the core structure.
-* **Tailwind CSS:** For all styling, loaded via CDN.
-* **JavaScript (ES6+):** All application logic is contained within a single `<script>` tag. There are no external frameworks or libraries, keeping it lightweight and easy to understand.
-* **jsPDF & jsPDF-AutoTable:** Used for the PDF export functionality, loaded via CDN.
+* **Tailwind CSS:** For all styling.
+* **JavaScript (ES6+):** All application logic is contained within a single `<script>` tag.
+* **jsPDF & jsPDF-AutoTable:** Used for the PDF export functionality.
 
-### Project Structure
-
-The entire application is contained within a single `toolkit.html` file. This was a deliberate design choice to make it incredibly easy for non-technical users to download and run without needing a web server or complex setup.
-
-### Contributing
+## Contributing
 
 Contributions are welcome! If you have an idea for a new feature or find a bug, please follow these steps:
 
@@ -61,7 +74,7 @@ Contributions are welcome! If you have an idea for a new feature or find a bug, 
 
 ## License
 
-This project is open-source and released under the GNU General Public License v3.0. The full license text is available in the comment block at the top of the `toolkit.html` file.
+This project is open-source and released under the GNU General Public License v3.0.
 
 ## Contact
 
