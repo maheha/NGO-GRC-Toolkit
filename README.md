@@ -28,7 +28,7 @@ The NGO GRC Toolkit is a guided, step-by-step application designed to simplify t
 
 Using the toolkit is simple. You just need a modern web browser and an internet connection.
 
-1.  Navigate to the **[Releases Page](https://github.com/your-username/your-repo-name/releases)** (link to be updated).
+1.  Navigate to the **[Releases Page]([https://github.com/your-username/your-repo-name/releases](https://github.com/maheha/NGO-GRC-Toolkit/))** .
 2.  Download the `toolkit.html` file from the latest release.
 3.  Open the downloaded `toolkit.html` file in your web browser (like Chrome, Firefox, or Edge).
 
